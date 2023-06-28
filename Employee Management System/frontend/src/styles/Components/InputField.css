@@ -1,0 +1,20 @@
+.input-wrapper{
+    display: flex;
+    flex-direction: column;
+    padding:5px;
+    gap:5px;
+    margin-bottom: 10px;
+}
+.label{
+    font-size:18px;
+    color:#111827;
+}
+.text-box{
+    height:25px;
+    border-radius:5px;
+    font-size:16px;
+    border: 1px solid #D1D5DB;
+    outline-color: #4F46E5;
+    color: #111827;
+    padding:3px;
+}

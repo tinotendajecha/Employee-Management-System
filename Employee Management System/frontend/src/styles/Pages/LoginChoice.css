@@ -1,0 +1,33 @@
+/* Login choice page */
+.choice-wrapper{
+    display: flex;
+    justify-content: center;
+
+}
+.choice-list{
+    display: flex;
+    gap:200px;
+    font-size:30px;
+}
+.choice-card{
+    text-decoration: none;
+    color: #111827;
+    border:1px solid #B1B4BB ;
+    padding:20px;
+    color:#4F46E5;
+    border-radius: 5px;
+}
+.choice-card:hover{
+    background-color:#4F46E5 ;
+    color:white;
+    transition: .3s ease;
+    border:none;
+    border-radius: 10px;
+}
+.user-id-wrapper{
+    display: flex;
+    align-items: center;
+    gap:10px;
+    color:#4F46E5;
+    font-size:20px;
+}

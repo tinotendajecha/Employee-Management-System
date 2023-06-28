@@ -1,0 +1,35 @@
+/* Styles for job post */
+.posts{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    align-items: center;
+}
+.job-post{
+    border:1px ridge ;
+    padding:30px;
+    width:50%;
+    margin-top:20px;
+}
+.job-post h1{
+    margin-bottom: 0px;
+    color:#111827;
+}
+.job-post p{
+    margin-top:0px;
+    width:100%;
+    color: #757D81;
+}
+.job-info-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:100%;
+}
+.icon{
+    color:#4F46E5;
+}
+.info{
+    display: flex;
+    gap:8px;
+}

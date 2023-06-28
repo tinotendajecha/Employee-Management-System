@@ -1,0 +1,30 @@
+.notification-container{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.notification{
+    display: flex;
+    flex-direction: column;
+    border:1px ridge;
+    width:600px;
+    padding:5px;
+}
+.notification-text{
+    color:#7c7d80;
+}
+.notification-info{
+    display: flex;
+    align-items: center;
+    gap:5px;
+}
+.notification-time{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap:1px;
+    color: #6366F1;
+}

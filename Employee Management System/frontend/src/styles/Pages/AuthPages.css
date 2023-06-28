@@ -1,0 +1,23 @@
+.auth-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.auth-btn-wrapper{
+    display: flex;
+}
+.auth-btn{
+    height:35px;
+    width:100%;
+    border-radius:5px;
+    font-size:15px;
+}
+.prompt-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.link{
+    color: #4F46E5;
+}

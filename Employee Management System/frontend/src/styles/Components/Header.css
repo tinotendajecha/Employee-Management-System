@@ -1,0 +1,23 @@
+/* Header styles */
+.header{
+    display: flex;
+    justify-content:space-between;
+    padding:10px;
+}
+.nav-list{
+    display: flex;
+    align-items: center;
+    font-size:20px;
+    gap:100px;
+    margin-right:80px;
+}
+.nav-link{
+    text-decoration: none;
+    color: #0a0a0a; 
+}
+.nav-link:hover{
+    color:#706f6f;
+}
+.logo-wrapper{
+    margin-left:80px;
+}

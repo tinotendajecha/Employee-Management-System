@@ -1,0 +1,176 @@
+@import url('./styles/Components/InputField.css');
+@import url('./styles/pages/AuthPages.css');
+@import url('./styles/Components/PositiveActionButton.css');
+@import url('./styles/Pages/LandingPage.css');
+@import url('./styles/Components/Header.css');
+@import url('./styles/Pages/LoginChoice.css');
+@import url('./styles/Components/SearchBar.css');
+@import url('./styles/Pages/JobPostsPage.css');
+@import url('./styles/Components/Notifcation.css');
+@import url('./styles/Pages/Tasks.css');
+
+/* Base styles for all components */
+h1 {
+    font-size: 30px;
+    color: #1e3a79;
+}
+
+form {
+    width: 400px;
+}
+
+button {
+    border: none;
+    background-color: #4F46E5;
+    color: white;
+    font-weight: bold;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #6366F1;
+    transition: .2s ease-in;
+}
+
+li {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+
+table {
+    border-collapse: separate;
+    border-spacing: 0px 8px;
+    width: 100%;
+}
+
+th {
+    text-align: center;
+    font-size: 20px;
+    border-bottom: 1px solid #ddd;
+    color: #4F46E5;
+}
+
+tr {
+    border-bottom: 1px solid #ddd;
+}
+
+td {
+    padding: 8px;
+    text-align: center;
+    color: #7c7d80;
+    border-bottom: 1px solid #ddd;
+}
+
+td button {
+    padding: 10px;
+    border-radius: 5px;
+
+}
+
+/* Table button styles */
+.action {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+/* Manager rsponse buttons */
+.response-buttons {
+    display: flex;
+    width: 50%;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.response-btn {
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Manage employees page */
+.employee-info {
+    display: flex;
+    align-items: end;
+    font-size: 26px;
+    gap: 5px;
+    margin-bottom: 0px;
+}
+
+.employee-name {
+    margin-bottom: 0px;
+}
+
+.employee-icon {
+    margin-bottom: 6px;
+    ;
+}
+
+.job-title {
+    margin-top: 0px;
+    font-size: 20px;
+    margin-bottom: 1px;
+}
+
+.title-date-wrapper {
+    margin-left: 35px;
+    margin-bottom: 20px;
+}
+
+.assign-check-btn {
+    margin-left: 35px;
+}
+
+.detail-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 5px;
+}
+
+.detail-item span:first-child {
+    flex-basis: 30%;
+    font-weight: bold;
+    text-align: left;
+}
+
+.detail-item span:last-child {
+    flex-basis: 70%;
+    text-align: left;
+}
+
+.text-area-field {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+  }
+  
+  .text-area-field label {
+    margin-bottom: 8px;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  .text-area-field textarea {
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    resize: vertical;
+    min-height: 100px;
+    box-sizing: border-box;
+  }
+  
+  .text-area-field textarea:focus {
+    outline: none;
+    border-color: #0066ff;
+  }
+
+  .hire-reject-buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+  }
